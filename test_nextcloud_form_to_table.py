@@ -1,5 +1,4 @@
-from transfer_forms_to_table.py import NextcloudFormToTable
-
+from transfer_forms_to_table import NextcloudFormToTable
 
 def test_transform_response_to_row():
     syncer = NextcloudFormToTable(
