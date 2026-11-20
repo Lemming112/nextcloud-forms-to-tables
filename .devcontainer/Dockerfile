@@ -8,6 +8,4 @@ RUN git clone "https://x-access-token:${GH_PAT}@github.com/Lemming112/nextcloud-
 
 WORKDIR /root/nextcloud-forms-to-tables
 
-VOLUME nextcloud-forms-to-tables
-
 CMD ["/bin/bash"]
